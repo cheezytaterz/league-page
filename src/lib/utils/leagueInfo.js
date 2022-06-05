@@ -51,7 +51,7 @@ export const managers = [
       "name": "Mac",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Orlando", // (optional)
-      "bio": "I love getting freaky in fantasy. <br> (407) 937-8353",
+      "bio": "I love getting freaky in fantasy.",
       "photo": "/managers/mac.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
