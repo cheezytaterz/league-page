@@ -7,11 +7,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2021, The League of Leagues (LoL) is a 10-Team dynasty fantasy football league formed by the top redraft players within a small group of friends. Each year, the manager from each dynasty team competes for the coveted League of Leagues Championship, and competes to stay out of the dreaded Toilet Bowl.</p>
-  <p>The leadership of the League of Leagues is NFL analyst and fantasy enthuiast, Luke Lanier, along with his top henchman, Trevbot and Tones. These three have led the league through highs and lows with astuteness and poise.</p>
-  <p>What changes will we have in store for 2022 and onward? Each dynasty manager can only dream more and more as they dive head first into the coming seasons.</p>
-  <p>Now, the fiscal incentives for the LoL is as follows: 1st - , 2nd - , 3rd - .</p>
-  <p>Gentleman, strap in for a journey of a lifetime competing for years to come in the League of Leagues!</p>
+  <p style="text-align:center;">Founded in 2021, The League of Leagues (LoL) is a 10-Team dynasty fantasy football league formed by the top redraft players within a small group of friends. Each year, the manager from each dynasty team competes for the coveted League of Leagues Championship, and competes to stay out of the dreaded Toilet Bowl.</p>
+  <p style="text-align:center;">The leadership of the League of Leagues is NFL analyst and fantasy enthuiast, Luke Lanier, along with his top henchman, Trevbot and Tones. These three have led the league through highs and lows with astuteness and poise.</p>
+  <p style="text-align:center;">What changes will we have in store for 2022 and onward? Each dynasty manager can only dream more and more as they dive head first into the coming seasons.</p>
+  <p style="text-align:center;">Now, the fiscal incentives for the LoL is as follows: 1st - , 2nd - , 3rd - .</p>
+  <p style="text-align:center;">Gentleman, strap in for a journey of a lifetime competing for years to come in the League of Leagues!</p>
 `;
 
 /*   STEP 3   */
@@ -42,7 +42,7 @@ export const managers = [
       "favoritePlayer": 421, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Youth is overrated - find production now. Love trading (sometimes it gets me in trouble).",
+      "philosophy": "<center>Youth is overrated - find production now. Love trading (sometimes it gets me in trouble).</center>"
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
