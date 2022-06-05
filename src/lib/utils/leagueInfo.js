@@ -29,7 +29,7 @@ export const managers = [
       "name": "Nick",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Orlando", // (optional)
-      "bio": "Hey - I'm Nick. I know most of the people in this league from middle/high school or through Trevor and Luke. I've been married since August 2021 and went to University of Florida. Go Gators! \n (407) 756-6869",
+      "bio": "Hey - I'm Nick. I know most of the people in this league from middle/high school or through Trevor and Luke. I've been married since August 2021 and went to University of Florida. Go Gators! <br> (407) 756-6869",
       "photo": "/managers/nick.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -51,7 +51,7 @@ export const managers = [
       "name": "Mac",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Orlando", // (optional)
-      "bio": "I love getting freaky in fantasy. \n (407) 937-8353",
+      "bio": "I love getting freaky in fantasy. <br> (407) 937-8353",
       "photo": "/managers/mac.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
